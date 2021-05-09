@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cpky34');
+  src:  url('fonts/icomoon.eot?cpky34#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cpky34') format('truetype'),
+    url('fonts/icomoon.woff?cpky34') format('woff'),
+    url('fonts/icomoon.svg?cpky34#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dollar-sign:before {
+  content: "\e900";
+}
+.icon-map:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e902";
+}
+.icon-shopping-bag:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e907";
+}
+.icon-credit-card:before {
+  content: "\e908";
+}
+.icon-chevron-down:before {
+  content: "\e905";
+}
+.icon-chevron-up:before {
+  content: "\e906";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
