@@ -39,11 +39,11 @@ window.addEventListener("scroll", () => {
 const firstLogo = document.querySelector(".utilities .logo .first-logo");
 const secondLogo = document.querySelector(".utilities .logo .second-logo");
 if (screen.width <= 880) {
-  firstLogo.style.display = "none";
-  secondLogo.style.display = "block";
-} else if (screen.width >= 880) {
-  secondLogo.style.display = "none";
   firstLogo.style.display = "block";
+  secondLogo.style.display = "none";
+} else if (screen.width >= 880) {
+  secondLogo.style.display = "block";
+  firstLogo.style.display = "none";
 }
 
 // form validation
